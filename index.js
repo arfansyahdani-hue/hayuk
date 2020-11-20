@@ -2,20 +2,20 @@
 * "Jangan modal nama doang bro!!!"
 * (Scriptnya Aris187 ID).
 */
-const BotName = '🤖AR15BOT🤖'; // Nama Bot Whatsapp
-const instagramlu = 'https://instagram.com/_sadboy.ig'; // Nama Instagramlu cok
-const whatsapplu = 'Wa.me/+6285722553839'; // Nomor whatsapplu cok
-const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/GU6NsgZvfgw37vrjIxUPhP'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://www.youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg'; // OFFICIAL GRUP LU 2
-const grupch3 = 'https://instagram.com/_sadboy.ig'; // OFFICIAL GRUP LU 3
+const BotName = '🤖VROXZY BOT🤖'; // Nama Bot Whatsapp
+const instagramlu = 'https://instagram.com/arfdnii_'; // Nama Instagramlu cok
+const whatsapplu = 'Wa.me/+6285877075481'; // Nomor whatsapplu cok
+const kapanbotaktif = '09.00-21.00'; // Kapan bot lu aktif
+const grupch1 = '--'; // OFFICIAL GRUP LU 1
+const grupch2 = '--'; // OFFICIAL GRUP LU 2
+const grupch3 = '--'; // OFFICIAL GRUP LU 3
 //
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
 const cheerio = require("cheerio");
 const get = require('got')
 const fs = require("fs");
-const dl = require("./lib/downloadImage.js");
+const dl = require("./lib/downloadImage.js"); 
 const fetch = require('node-fetch');
 const urlencode = require("urlencode");
 const axios = require("axios");
@@ -72,7 +72,7 @@ conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @_sadboy.ig`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @arfdnii_`)
 })
 
 conn.on('message-new', async(m) =>
